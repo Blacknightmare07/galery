@@ -1,0 +1,107 @@
+*{ 
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box;
+}
+.menu{
+	background-color: #259055;
+    text-align: center;
+    width: 100%;
+    position: fixed;	
+    z-index: 2;
+}
+.menu a{
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px 20px;
+	font-size: 20px;
+}
+.header{
+	text-align: center;	
+    padding: 200px 0px;
+    background-image: url(../images/background.jpg); 
+    background-size: cover;	
+    background-repeat: no-repeat;	
+    position: relative;	
+}
+.header p{
+	position: absolute;	
+	right: 50px;
+	bottom: 10px;
+}
+h1{
+	font-style: italic;	
+	font-size: 50px;	
+}
+.facts{
+	background-color: #7AB27D;
+	padding: 50px;
+}
+h2{
+	text-align: center;
+	text-decoration: underline;
+	color: #B51F1F;
+}
+.fact_odd{
+	font-weight: bold;
+}
+.fact_even{
+	font-style: italic;
+}
+.facts li{
+	padding: 10px 0;
+}
+.galery{
+	padding: 50px 0;
+}
+.images{
+	text-align: center;
+}
+.images img{
+	margin:20px;
+	border: 3px solid; 
+}
+#img1{
+	border-color: red;
+}
+#img2{
+	border-color: blue;
+}
+#img3{
+	border-color: green;
+}
+#img4{
+	border-color: yellow;
+}
+.feedback{
+	padding: 50px 0;
+	background-color: #7AB27D; 
+}
+.feedback form{
+	width: 500px;
+	margin: 20px auto;
+	border: 3px double green;
+	border-radius: 5px;
+	text-align: center;
+	padding: 10px;
+}
+.feedback input, .feedback select, .feedback textarea{
+	width: 300px;
+	padding: 15px;
+	font-size: 20px;
+	margin-top: 10px;
+	border: 2px solid #1abc9c;
+	background: #fff;
+	color: #000;
+	outline: none;
+	border-radius: 8px;
+}
+.feedback label{
+	font-size: 20px;
+	display: block;
+}
+.feedback input[type=sunmit]{
+	background-color: #B51F1F
+
+ }
